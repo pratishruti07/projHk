@@ -1,16 +1,24 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
   "main": "MyProj.js",
   "dependencies": {
     "nodemon": "^2.0.15"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node Myproj.js",
+    "start": "node MyProj.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratishruti07/projHk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pratishruti07/projHk/issues"
+  },
+  "homepage": "https://github.com/pratishruti07/projHk#readme",
+  "description": ""
 }
