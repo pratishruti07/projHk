@@ -17,4 +17,4 @@ http.createServer((request,response) => {
     response.end();
 }
    
-).listen(9090,()=>{console.log("server started.")})
+).listen(process.env.PORT,()=>{console.log("server started.")})
